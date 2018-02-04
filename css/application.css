@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: none;
+}
+
+.RegisterModalOverlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(97, 97, 97, 0.78);
+}
+
+.composer-wrapper {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.composer-editor {
+  height: calc(100% - 50px) !important;
+  padding: 10px 20px;
+}
+
+.composer-editor .public-DraftStyleDefault-block {
+  margin: 0;
+}
+
+.composer-toolbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 160px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin-bottom: 0px !important;
+  height: 60px;
+}
+
+.composer-toolbar > div {
+  margin-bottom: 0px !important;
+}
+
+.blockType {
+  position: relative;
+}
+
+.blockType .blockType-dropdown {
+  position: absolute;
+  bottom: 100%;
+  width: 100%;
+}
+
+.editor-link-popup {
+  bottom: 100% !important;
+  top: initial !important;
+}
